@@ -107,6 +107,10 @@ class ProdutoApp:
         self.label_produtos = tk.Label(self.produtos_window, text="Produtos No Estoque", font=('Arial', 14), bg='#f0f0f0')
         self.label_produtos.pack(pady=10)
 
+        self.label_instrucao = tk.Label(self.produtos_window, text="Clique para selecionar produto", font=('Arial', 10),
+                                        bg='#f0f0f0')
+        self.label_instrucao.pack(pady=(0, 10))
+
         self.frame_produtos = tk.Frame(self.produtos_window, bg='#f0f0f0')
         self.frame_produtos.pack(pady=10)
 
